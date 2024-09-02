@@ -1,4 +1,4 @@
-## Getting Started
+* Start:
 
 Create a project using this example:
 
@@ -8,9 +8,9 @@ npx thirdweb create --contract --template hardhat-javascript-starter
 
 You can start editing the page by modifying `contracts/Contract.sol`.
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. 
+To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. 
 
-## Building the project
+* Building the project
 
 After any changes to the contract, run:
 
@@ -22,9 +22,9 @@ yarn build
 
 // to compile your contracts.
 
-## Deploying Contracts
+* Deploying Contracts
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+When ready to deploy your contracts, run one of the following command to deploy you're contracts:
 
 ```bash
 npm run deploy
@@ -32,7 +32,7 @@ npm run deploy
 yarn deploy
 ```
 
-## Releasing Contracts
+* Releasing Contracts
 
 If you want to release a version of your contracts publicly, you can use one of the followings command:
 
@@ -41,3 +41,4 @@ npm run release
 # or
 yarn release
 
+*END
